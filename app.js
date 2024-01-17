@@ -1,7 +1,7 @@
-let typed = new Typed(".auto-type", {
-    strings: ["Frontend Developer", "Web Developer", "Designer"],
-typeSpeed: 150,
-backSpeed: 150,
-loop: true
+  function setActive(element) {
+      document.querySelectorAll('nav li').forEach(function(li) {
+        li.classList.remove('active');
+      });
 
-})
+      element.closest('li').classList.add('active');
+    }

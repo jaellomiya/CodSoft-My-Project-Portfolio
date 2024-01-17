@@ -7,58 +7,48 @@
       name="description"
       content="Project Portfoltio of Jeal Lomiya, a Frontend Web Developer"
     />
+    <!-- Google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <!-- Google fonts link -->
     <title>Frontend Developer - Jeal Lomiya</title>
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Navbar begins -->
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="#" class="logo d-none d-md-block" alt="#" />
-          <img src="#" class="logo d-block d-md-none" alt="#" />
-        </a>
-        <ul>
-          <li class="active">
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#"> Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <!-- Navbar ends -->
+  <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="header">
-      <div class="home" id="home">
-        <h4>Hello Everyone!</h4>
-        <h1>I'm <span class="my-name">Jeal Lomiya</span></h1>
-        <h3>a <span class="auto-type">Frontend Developer</span></h3>
-        <p class="text-muted">
-          I am a dedicated Frontend Developer passionate about transforming
-          design concepts into user-friendly web experiences.
-        </p>
-      </div>
-    </header>
+  <div  class="header">
+      
+<nav>
 
+  <ul class="menu">
+  
+    <li><a href="/" onclick="setActive(this)">Home</a></li>
+    <li><a href="#about" onclick="setActive(this)">About</a></li>
+    <li><a href="#projects" onclick="setActive(this)">Projects</a></li>
+    <li><a href="#contact" onclick="setActive(this)">Contact</a></li>
+  </ul>
+</nav>
+
+        <img src="images/jay-image-no-bg.png" alt="" class="img-fluid float-end mt-3 me-3">
+
+  </div>
+  <header class="introduction">
+<h3>Hello everyone, I'm</h3>
+<h1>Jeal Lomiya</h1>
+  </header>
+  
+
+<script src="app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

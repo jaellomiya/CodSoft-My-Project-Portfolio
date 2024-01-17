@@ -1,33 +1,51 @@
-h3,
-h4 {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
   font-family: "Playfair Display", serif;
-  font-size: 40px;
+  box-sizing: border-box;
 }
 
-h1 {
+body {
+  background: #fff ;
+  color: #000;
+}
+
+.logo {
+  width: 25%;
+}
+
+ nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+overflow: hidden;
+background-color: lightskyblue;
+text-align: right;
+}
+
+
+nav li {
+ display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
   text-align: center;
-  font-size: 80px;
-  font-family: "Playfair Display", serif;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-p {
-  text-align: center;
-  font-size: 15px;
-}
-
-.my-name {
-  color: pink;
-}
-
-.navigation {
-
-
+li a:hover, li.active {
+  background-color: rgb(53, 171, 245);
 }
 
 
-h3 [
-  
-]
+
+img {
+width: 35%;
+height: auto;
+}
+
 
 
